@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: american_captain;
+    src: url("../fonts/american_captain/American\ Captain.ttf");
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: DM_Sans;
+    src: url("../fonts/DM_Sans/DMSans-Bold.ttf");
+    font-weight: normal;
+
+}
+
+
+
+#nav{
+    background-color: rgb(37, 37, 39);
+   
+}
+
+#nav ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    font-family: american_captain;
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+
+
+#nav ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+
+main{
+    margin: auto;
+    width: 960px;
+    background-color: rgb(37, 37, 39);
+
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img{
+    width: 400px;
+}
+
+#texto{
+    font-family: DM_Sans;
+    color: #FFF;
+}
